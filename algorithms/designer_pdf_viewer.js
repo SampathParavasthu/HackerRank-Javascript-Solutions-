@@ -5,7 +5,7 @@ function designerPdfViewer(alphabetsHeight,word){
   for (let letter of word) {
     listOfAvailableHeights.push(alphabetsHeight[alphabets.indexOf(letter)]) ;
   }
-  console.log(Math.max(...listOfAvailableHeights)*1*word.length);
+  return Math.max(...listOfAvailableHeights)*1*word.length;
 
 }
 
