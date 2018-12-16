@@ -1,2 +1,2 @@
-let Regex_Pattern = 'hackerrank';
+let Regex_Pattern = /hackerrank/gi;
 
